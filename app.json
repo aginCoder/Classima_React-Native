@@ -62,7 +62,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "bitcode": "Debug",
       "usesAppleSignIn": true,
@@ -79,7 +81,9 @@
         "NSLocationAlwaysUsageDescription": "Classima uses device location on listing information, Listing search Data and User information.",
         "NSMicrophoneUsageDescription": "Classima uses your microphone while taking video of your product for uploading in listing information.",
         "CFBundleAllowMixedLocalizations": true,
-        "UIBackgroundModes": ["remote-notification"]
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
       },
       "config": {
         "googleMapsApiKey": "j87tj8y787h6-jh7gbi8678",
@@ -112,12 +116,19 @@
         "android.permission.INTERNET",
         "POST_NOTIFICATIONS"
       ],
-      "blockedPermissions": ["READ_CONTACTS"],
+      "blockedPermissions": [
+        "READ_CONTACTS"
+      ],
       "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "scheme": "classima"
+    "scheme": "classima",
+    "extra": {
+      "eas": {
+        "projectId": "200d7276-4420-4f2b-8bb6-1c7701691a05"
+      }
+    }
   }
 }
